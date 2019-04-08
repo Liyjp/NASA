@@ -1,0 +1,342 @@
+body {
+    background-color: black;
+    width: 95%;
+    margin: auto;
+}
+
+.header {
+    background: url('images/starfield-banner.jpg ');
+    position: absolute;
+    width: 95%;
+}
+
+.header .h1 {
+    padding: 20px 20px 10px 10px;
+    width: 150px;
+    height: 150px;
+
+}
+
+.header .h2{
+    position: absolute;
+    top: 30px;
+    left: 250px;
+    width: 1500px;
+    height: 150px;
+}
+
+.header .h2 .nav{
+    font-size: xx-large;
+    color: aliceblue;
+
+}
+.header .h2 .nav td{
+    border-right: 1px gainsboro solid;
+    padding: 10px;
+}
+.header .h2 .nav .td-last{
+    border: 0;
+}
+.header .h2 .intr {
+    position: absolute;
+    top: 90px;
+    left: -100px;
+    font-size: 24px;
+    color: aliceblue;
+    background-color: grey;
+}
+.header .h2 .intr td{
+    border-right: 1px gainsboro solid;
+    padding: 5px;
+}
+.header .h2 .intr .td-last1{
+    border: 0px;
+}
+.header .h3 input{
+    position: absolute;
+    top: 50px;
+    right: 60px;
+    height: 38px;
+    background-color:dimgrey;
+    color: darkgray;
+}
+.header .h3 #search{
+    position: absolute;
+    top: 50px;
+    right: 60px;
+}
+.header .h3 #share{
+    position: absolute;
+    top: 50px;
+    right: 15px;
+}
+
+/*第二行的css样式*/
+.container1{
+    width: 95%;
+    height: 650px;
+}
+.container1 .c1{
+    width: 48%;
+    padding: 10px;
+}
+.container1 .c1 #p1{
+    background-color: cornflowerblue;
+    color: #FFFFFF;
+    position: absolute;
+    top: 785px;
+    font-size: 20px;
+}
+.container1 .c1 #p2{
+    background-color: #fff;
+    position: absolute;
+    top: 808px;
+    font-size: 22px;
+    width: 820px;
+}
+.container1 .c2{
+    width: 48%;
+    padding: 10px;
+}
+.container1 .c2 .c2-1{
+    height: 370px;
+    position: absolute;
+    top: 190px;
+    left: 900px;
+}
+.container1 .c2 .c2-1 #p3{
+    background-color: cornflowerblue;
+    color: #FFFFFF;
+    position: absolute;
+    top: 225px;
+    font-size: 20px;
+}
+.container1 .c2 .c2-1 #p4{
+    background-color: #fff;
+    position: absolute;
+    top: 250px;
+    font-size: 22px;
+    width: 430px;
+}
+.container1 .c2 .c2-2{
+    height: 320px;
+    position: absolute;
+    top: 200px;
+    right: 98px;
+    width: 440px;
+    background-color: cornflowerblue;
+}
+.container1 .c2 .c2-2 p,pre{
+    color: #FFFFFF;
+}
+.container1 .c2 .c2-3{
+    position: absolute;
+    top: 540px;
+    width: 950px;
+    left: 900px;
+}
+.container1 .c2 .c2-3 #p5{
+    background-color: #fff;
+    position: absolute;
+    top: 270px;
+    font-size: 22px;
+    width: 900px;
+}
+/*第三行样式*/
+.container2{
+    width: 95%;
+    padding: 10px;
+    height: 400px;
+}
+.container2 .container2-1{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 900px;
+
+}
+.container2 .container2-1 #p6{
+    background-color: cornflowerblue;
+    color: #FFFFFF;
+    position: absolute;
+    top: 328px;
+    font-size: 20px;
+}
+.container2 .container2-1 #p7{
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 354px;
+    font-size: 20px;
+    width: 400px;
+}
+.container2 .container2-2{
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    top: 900px;
+    left: 470px;
+    padding: 20px;
+}
+.container2 .container2-2 #p8{
+    background-color: cornflowerblue;
+    color: #FFFFFF;
+    position: absolute;
+    top: 328px;
+    font-size: 20px;
+}
+.container2 .container2-2 #p9{
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 354px;
+    font-size: 20px;
+    width: 800px;
+}
+.container2 .container2-3{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 875px;
+    left: 1300px;
+    padding: 20px;
+}
+
+/*第四行样式*/
+.container3{
+    width: 95%;
+    padding: 10px;
+    height: 400px;
+}
+.container3 .c3-1{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 1370px;
+}
+.container3 .c3-1 #p10{
+    background-color: cornflowerblue;
+    color: #FFFFFF;
+    position: absolute;
+    top: 300px;
+    font-size: 20px;
+}
+.container3 .c3-1 #p11{
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 326px;
+    font-size: 20px;
+    width: 400px;
+}
+.container3 .c3-2{
+    width: 420px;
+    height: 400px;
+    position: absolute;
+    top: 1370px;
+    left: 450px;
+    padding-left: 40px;
+    padding-right: 10px;
+}
+.container3 .c3-2 #p12{
+    background-color: cornflowerblue;
+    color: #FFFFFF;
+    position: absolute;
+    top: 300px;
+    font-size: 20px;
+}
+.container3 .c3-2 #p13{
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 326px;
+    font-size: 20px;
+    width: 420px;
+}
+.container3 .c3-3{
+    width: 420px;
+    height: 400px;
+    position: absolute;
+    top: 1370px;
+    left: 840px;
+    padding-left: 110px;
+    padding-right: 60px;
+}
+.container3 .c3-3 #p14{
+    background-color: cornflowerblue;
+    color: #FFFFFF;
+    position: absolute;
+    top: 300px;
+    font-size: 20px;
+}
+.container3 .c3-3 #p15{
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 326px;
+    font-size: 20px;
+    width: 420px;
+}
+.container3 .c3-4{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 1370px;
+    left: 1260px;
+    padding-left: 146px;
+    padding-right: 20px;
+}
+.container3 .c3-4 #p16{
+    background-color: cornflowerblue;
+    color: #FFFFFF;
+    position: absolute;
+    top: 301px;
+    font-size: 20px;
+}
+.container3 .c3-4 #p17{
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 327px;
+    font-size: 20px;
+    width: 400px;
+}
+.foot1 p{
+    background-color: #004a7e;
+    align-content: center;
+    color: #FFFFFF;
+    position: absolute;
+    top: 1780px;
+    height: 60px;
+    width: 93%;
+    line-height: 60px;
+}
+
+.foot{
+    width: 95%;
+    padding: 10px;
+    height: 250px;
+}
+.foot .logo{
+    position: absolute;
+    top: 1900px;
+}
+.foot .logo p{
+    color: #FFFFFF;
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    width: 400px;
+}
+
+.foot .index table{
+    color: cornflowerblue;
+    position: absolute;
+    top: 2000px;
+    right: 100px;
+    font-size: 19px;
+}
+.foot .index table td{
+    padding: 10px;
+}
+
+.foot .index p{
+    position: absolute;
+    top: 2100px;
+    right: 100px;
+    font-size: 22px;
+}
